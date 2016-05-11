@@ -1,0 +1,16 @@
+<html>
+ <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+ </head>
+   <body>
+	 <div ng-app>
+		<label>Nombre: </label>
+		<input type="text" placeholder="Escribe tu nombre" ng-model="nombre"></input>
+		<label>Color: </label>
+		<input type="text" placeholder="Escribe un color" ng-model="color"></input>
+		<hr>
+		<h1 class = "text-{{color}}">Hola {{nombre}}!!</h1>
+	 </div>
+   </body>
+<html>
